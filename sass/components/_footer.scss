@@ -1,0 +1,170 @@
+
+/*===================FOOTER PART START ==============*/ 
+#footer_bg{
+    // margin-bottom: 100px;
+    background: url(../images/footer.png) no-repeat center / cover;
+    position: relative;
+    padding: 30px 0 0;
+    z-index: 9;
+    &::before{
+        content: '';
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.85);
+        z-index: -9;
+    }
+ 
+    .footer_img{
+        margin-bottom: 30px;
+    }
+    .footer_item{
+        h3{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: var(--white);
+            font-family: var(--main_font);
+            margin-bottom: 30px;
+        }
+         .day{
+             width: 100px;
+             li{
+                 font-family: var(--other_font);
+                 font-weight: 400;
+                 text-transform: capitalize;
+                 color: var(--white);
+                 font-size: 13px;
+                 line-height: 18px;
+                 margin-bottom: 10px;
+             }
+         }
+         .date{
+             li{
+                font-family: var(--other_font);
+                 font-weight: 400;
+                 text-transform: capitalize;
+                 color: var(--white);
+                 font-size: 13px;
+                 line-height: 18px;
+                 margin-bottom: 10px;
+             }
+         }
+         .padding_left{
+            margin-right: 10px;
+            i{
+             font-size: 20px;
+            }
+           }
+         .footer_icon{
+             i{
+                 font-size: 16px;
+                 color: var(--brnad);
+             }
+              ul{
+                  color: var(--white);
+                  
+                  .icone_text{
+                    font-family: var(--other_font);
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    color: var(--white);
+                    font-size: 13px;
+                    line-height: 20px;
+                  }
+              }
+    }
+    .flicker_photo{
+        li{
+            width: 25%;
+            float: left;
+            img{
+                width: 100%;
+                transform: scale(.9);
+            }
+        }
+    }
+    .contact_icon{
+        i{
+            color: var(--brnad);
+            margin-right: 5px;
+        }
+        li{
+            a{
+                font-family: var(--other_font);
+                font-weight: 400;
+                text-transform: capitalize;
+                color: var(--white);
+                font-size: 13px;
+                line-height: 18px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .social_icon{
+        h3{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: var(--white);
+            font-family: var(--main_font);
+           
+        }
+        li{
+            margin-top: 22px !important;
+            cursor: pointer;
+            i{
+                height: 30px;
+                width: 30px;
+                line-height: 30px;
+                text-align: center;
+                border: 1px solid var(--white);
+                font-size: 16px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+}
+ .border_bg{
+     position: relative;
+     z-index: 99;
+     &::before{
+         content: '';
+         position: absolute;
+         top: 73px;
+         left: 0;
+         height: 1.3px;
+         width: 100%;
+         background-color:var(--white);
+         z-index: -9;
+     }
+     &::after{
+         content: '';
+         position: absolute;
+         bottom: 60px;
+         left: 0;
+         height: 1.3px;
+         width: 100%;
+         background-color:var(--white);
+         z-index: -9;
+     }
+ }
+ .copy_right{
+     line-height: 50px;
+     padding-bottom: 25px;
+     padding-top: 25px !important;
+     p{
+         color: var(--white);
+         text-transform: capitalize;
+         font-size: 14px;
+         line-height: 18px;
+         font-family: var(--main_font);
+         margin-top: 20px;
+        span{
+            color: var(--brnad);
+        }
+     }
+ }
+/*===================FOOTER PART ENDS ==============*/ 

@@ -1,0 +1,51 @@
+/*===================BRAND PART START ==============*/ 
+#brand{
+    margin-bottom: 80px;
+    .brand_item{
+    margin: 0 15px;
+    img{
+        transform: scale(.98);
+        filter: grayscale(1);
+    }
+    }
+    .slick-center{
+        display: inline-block;
+        img{
+            transform: scale(1);
+            box-shadow:0 0 5px 0 rgba(128, 128, 128, 0.4);
+            // box-shadow: 5px 5px blue, -3px -3px 3px 0 gray;
+            filter: grayscale(0);
+        }
+    }
+    position: relative;
+    .prev_arrow{
+        position: absolute;
+        left: -10px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 99999;
+        cursor: pointer;
+        font-size: 25px;
+       transition: all linear 0.4s;
+      
+    }
+    .right_arrow{
+        position: absolute;
+        right: -10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 25px;
+        transition: all linear 0.4s;
+
+    }
+    .prev_arrow:hover{
+        color: var(--brnad);
+    }
+    .right_arrow:hover{
+         color: var(--brnad);
+    }
+     
+}
+/*===================BRAND PART ENDS ==============*/ 
+ 

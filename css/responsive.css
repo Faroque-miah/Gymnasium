@@ -1,0 +1,260 @@
+   /* extra smal device start  */
+@media (max-width: 575px){
+    /* =======nav bar start==========  */
+ 
+    .header_bg .navbar-brand { 
+        transform: skewX(0deg);
+        position: static !important;
+    }
+    .header_bg .navbar-brand img{
+        transform: skewX(0deg);
+    }
+  .navbar-brand {
+        transform: skewX(0deg);
+        position: static !important;
+    }
+    .header_bg .navbar-brand {
+    padding: 0 !important;
+    }
+
+    .navbar-toggler {
+        background-color: #e23e38;
+        border-radius: .0rem;
+    }
+    .navbar-toggler i{
+        color: var(--white);
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow:  none;
+      }
+      .navbar .navbar-nav{
+          background-color: rgba(53, 53, 53, 0.85);
+      }
+      .header_bg .header .nav-item .nav-link{
+          display: block;
+      }
+      .header_bg .header .nav-item .nav-link::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100;
+        width: 100%;
+        background: var(--white);
+        content: '';
+        -webkit-transition: all linear 0.4s;
+        transition: all linear 0.4s;
+        z-index: -9;
+    }
+    #banner{
+        position: relative;
+    }
+    #banner .bg_1 .banner_text h1::before ,
+    #banner .bg_1 .banner_text h1::after ,
+    #banner .bg_1 .banner_text h3::before ,
+    #banner .bg_1 .banner_text h3::after ,
+    #banner .bg_1 .banner_text p::after,
+    #banner .bg_1 .banner_text p::before {
+     display: none;
+    }
+    .banner_text p{
+        padding: 0 !important;
+    }
+         /* =======nav bar start==========  */
+
+         /* =====BANNER start==========  */
+         #banner .banner_item h1 {
+            font-size: 50px;
+            margin: 20px 0;
+        }
+        #banner .banner_item h3 {
+            font-size: 26px;
+        }
+        #banner .banner_item p {
+            font-size: 12px;
+            padding: 0 15px;
+        }
+        #banner .banner_item .banner_button a:first-of-type {
+            margin-right: 15px;
+        }
+        #banner .banner_item .banner_button a {
+            line-height: 33px;
+        }
+        #banner .slick-dots li {
+            height: 12px;
+            width: 12px;
+        }
+        #banner .banner_item {
+            padding-top: 215px;
+            padding-bottom: 106px;
+            position: relative;
+            z-index: 9;
+        }
+         /* =====BANNER start==========  */
+
+         /* =====ABOUT start==========  */
+         #about {
+            padding: 50px 0;
+        }
+        .header h3 {
+            font-size: 21px;
+        }
+        .header img {
+            margin-top: -21px;
+        }
+        #about .banner_text p {
+            font-size: 12px;
+            font-family: var(--para);
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 24px;
+            color: var(--para);
+            text-align:justify;
+        }
+        #about .about_img .about_oberlay a i {
+            font-size: 19px;
+            color: #1a181d;
+            height: 43px;
+            width: 43px;
+            line-height: 43px;
+            text-align: center;
+            background: var(--brnad);
+            border-radius: 50%;
+        }
+         /* =====ABOUT ENDS==========  */
+
+         /* =====TEAM START ==========  */
+         #team {
+            padding: 50px 0;
+        }
+        #team .card {
+            margin-top: 50PX;
+        }
+        #team .card-body .card-text {
+            font-size: 12px;
+        }
+         /* =====TEAM  ENDS==========  */
+
+         /* =====testimonial  start==========  */
+         #testi .testi_item .testi_img_text .testi_text_icon h3 {
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+        #testi .testi_item .testi_para p {
+            font-size: 11px;
+        }
+        #testi .testi_bg {
+            padding-bottom: 44px;
+        }
+        #membership {
+            padding: 50px 0;
+        }
+        .header h3 {
+            font-size: 20px;
+        }
+         /* =====testimonial  ENDS==========  */
+         
+         /* =====MEMBERSHIP  ENDS==========  */
+         #membership .member_item{
+             margin-bottom: 20px;
+         }
+         #membership .member_item:nth-child(3){
+             margin-bottom:  0 !important;
+         }
+         #membership .member_item .member_head h3 {
+            margin-bottom: 0 !important;
+            font-size: 15px;
+        }
+        #membership .member_item .member_img .member_overlay span {
+            font-size: 30px;
+        }
+        #membership .member_item .member_prise_list {
+            padding: 30px;
+            background-color: #f1f1f1;
+        }
+        #membership .member_item .member_prise_list ul li {
+            font-size: 12px;
+            font-weight: 400;
+            text-transform: capitalize;
+            font-family: var(--main_font);
+            line-height: 18px;
+            margin-bottom: 24px;
+        }
+        #membership .member_item .member_footer a {
+            line-height: 45px;
+        }
+         /* =====MEMBERSHIP  ENDS==========  */
+       
+         /* =====COUNTER  ENDS==========  */
+         #counter {
+            padding: 45px 0 20px;
+        }
+         .counter_item{
+             text-align: center;
+             margin-bottom: 10px;
+         }
+         #counter .counter_item h3 {
+            font-size: 36px;
+        }
+        #counter .counter_item p {
+            font-size: 15px;
+        }
+        #counter .counter_item p:nth-last-of-type(5){
+            margin-bottom: 0 !important;
+        }
+         /* =====COUNTER  ENDS==========  */
+
+         /* =====ROUTAIN  ENDS==========  */
+         #routainbg {
+            padding: 50px 0;
+        }
+        #routainbg .nav-tabs .nav-item {
+            width: 100%;
+        }
+        #routainbg .nav-tabs {
+            line-height: 42px;
+        }
+        #routainbg .nav-tabs .nav-item .nav-link {
+            font-size: 13px;
+        }
+        #routainbg .tab-content ul li {
+            width: 100%;
+            background-color: #f1f1f1;
+            padding: 50px 0;
+            float: left;
+            -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+        }
+         /* =====ROUTAIN  ENDS==========  */
+
+         /* =====FOOTER  ENDS==========  */
+         #footer_bg .footer_item h3 {
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+        #footer_bg .footer_item .date li {
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 8px;
+        }
+        #footer_bg .footer_item .footer_icon ul .icone_text {
+            font-size: 12px;
+            line-height: 20px;
+        }
+        #footer_bg .footer_item .footer_icon i {
+            font-size: 14px;
+            color: var(--brnad);
+        }
+        #footer_bg .footer_item .flicker_photo li img {
+            width: 100%;
+            -webkit-transform: scale(0.9);
+            transform: scale(0.95);
+        }
+        .copy_right {
+            padding-bottom: 10px;
+            padding-top: 25px !important;
+        }
+         /* =====FOOTER  ENDS==========  */
+    }
+   /* extra smal device ends  */

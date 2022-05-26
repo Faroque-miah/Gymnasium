@@ -1,0 +1,76 @@
+/*================= HEADER PART START ================== */
+.header_bg{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background:  rgba(53, 53, 53, 0.25); 
+    background:  #35353540; 
+     
+}
+ 
+.header_bg .navbar-brand{
+    padding: 10px 12px;
+    position: absolute;
+    background-color: #353535;
+    transform: skewX(-26deg);
+}
+.header_bg .navbar-brand img{
+    transform: skewX(26deg);
+}
+ 
+.header_bg .header .nav-item .nav-link{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: var(--main_font);
+    color: var(--white);
+    text-transform: capitalize;
+    line-height: 50px;
+    position: relative;
+    padding: 0 20px;
+    z-index: 99;
+}
+.header_bg .header .nav-item .nav-link::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: var(--white);
+    content: '';
+    transition: all linear 0.4s;
+    z-index: -9;
+}
+.header_bg .header .nav-item .nav-link::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: var(--brnad);
+    content: '';
+    transition: all linear 0.4s;
+    z-index: -9;
+}
+.header_bg .header .nav-item .nav-link:hover::before{
+    height: 100%;
+}
+.header_bg .header .nav-item .nav-link:hover::after{
+    width: 100%;
+}
+.header_bg .header .nav-item .nav-link.active::after{
+    width: 100%;
+}
+.header_bg .header .nav-item .nav-link.active::before{
+    height: 100%;
+}
+.header_bg .header .nav-item .nav-link.active{
+    color: var(--h_color);
+}
+.header_bg .header .nav-item .nav-link:hover{
+    color: var(--h_color);
+}
+/*=======================HEADER PART ENDS ======================*/ 

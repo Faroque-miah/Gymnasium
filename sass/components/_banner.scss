@@ -1,0 +1,191 @@
+
+/*===================BANNER PART START ==============*/ 
+#banner{
+    position: relative;
+    z-index: 9;
+    .banner_item{
+        padding-top: 230px;
+        padding-bottom: 120px;
+       position: relative;
+       z-index: 9;
+       &::before{
+           content: '';
+           position: absolute;
+           inset: 0;
+           height: 100%;
+           width: 100%;
+           z-index: -1;
+           background: rgba(0, 0, 0, 0.60);
+           background: #00000099;
+       }
+       h3{
+           font-size: 30px;
+           font-family: var(--main_font);
+           font-weight: 700;
+          text-transform: uppercase;
+          color: var(--white);
+          position: relative;
+       }
+       h1{
+           font-size: 60px;
+           font-family: var(--main_font);
+           font-weight: 700;
+          text-transform: uppercase;
+          color: var(--brnad);
+          line-height: 30px;
+          position: relative;
+          margin: 30px 0;
+
+       }
+       p{
+           color: var(--white);
+          font-weight: 400;
+          font-size: 13px;
+          font-family: var(--other_font);
+          line-height: 18px;
+        position: relative;
+        padding: 0 20px;
+       }
+       .banner_button{
+           a.active{
+               background-color: var(--brnad);
+               border-color: var(--brnad);
+           }
+           a{
+               width: 100px;
+               line-height: 35px;
+               border: 1px solid var(--white);
+               text-align: center;
+               font-size: 16px;
+               font-family: var(--main_font);
+               font-weight: 500;
+               text-transform: uppercase;
+               color: var(--white);
+               transition: all linear 0.4s;
+               &:first-of-type{
+                   margin-right: 30px;
+               }
+               &:hover{
+                   background-color: var(--brnad);
+                   border-color: var(--brnad);
+               }
+           }
+       }
+    }
+    .bg_1{
+        background: url(../images/bg_1.png) no-repeat center / cover;
+        .banner_text{
+             h1{
+                 position: relative;
+                 z-index: 3;
+                 &::before{
+                     content: '';
+                             position: absolute;
+                             height: 200px;
+                             width: 3px;
+                             background-color: var(--brnad);
+                             top: -45px;
+                             left: 0;
+                             z-index: -9;
+                 }
+                      &::after{
+                    content: '';
+                    position: absolute;
+                    height: 206px;
+                    width: 3px;
+                    background-color: var(--brnad);
+                    top: -51px;
+                    right: 0;
+                    z-index: -9;
+                }
+             }
+                h3{
+                position: relative;
+                z-index: 99;
+          &::before {
+            content: '';
+            position: absolute;
+            top: 53%;
+            left: 0;
+            height: 3px;
+            width: 174px;
+            background-color: var(--brnad);
+            z-index: -9;
+                }
+          &::after {
+            content: '';
+            position: absolute;
+            top: 14px;
+            right: 0;
+            height: 3px;
+            width: 140px;
+            background-color: var(--brnad);
+            z-index: -9;
+                }
+                }
+                p{
+                    position: relative;
+                    z-index: 99;
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        height: 3px;
+                        width: 55px;
+                        background-color: var(--brnad);
+                        top: 94px;
+                        right: 0;
+                        z-index: -9;
+                    }
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        height: 3px;
+                        width: 77px;
+                        background-color: var(--brnad);
+                        top: 94px;
+                        left: 0;
+                        z-index: -9;
+                    }
+        }
+    }
+    }
+    .bg_2{
+        background: url(../images/bg_2.png) no-repeat center / cover;
+    }
+    .bg_3{
+        background: url(../images/bg_3.png) no-repeat center / cover;
+    }
+    // DOTS START 
+    .slick-dots{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 30px;
+        padding: 0;
+        margin: 0;
+        li.slick-active{
+            background-color: var(--brnad);
+            border-color: var(--brnad);
+        }
+        li{
+           
+            height: 15px;
+            width: 15px;
+            border:1px solid var(--white);
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 10px;
+            cursor: pointer;
+            &:last-child{
+                margin-right: 0;
+            }
+            button{
+                font-size: 0;
+                border: none;
+            }
+        }
+    }
+}
+
+
+/*===================BANNER PART ENDS ==============*/ 

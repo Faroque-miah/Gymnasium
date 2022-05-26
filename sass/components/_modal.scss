@@ -1,0 +1,61 @@
+
+
+/*===================MODAL  START ==============*/ 
+ 
+  .btn-outline-primary:focus {
+	box-shadow:none !important; 
+}
+.modal {
+	// background-color: rgba(226, 62, 56, 0.7) !important;
+	background:rgba(245, 222, 179, 0.67);
+}
+.modal-title{
+	font-size: 18px;
+	font-family: var(--main_font);
+	color: var(--h_color);
+}
+ 
+.modal-content {
+	background: #BA9711;
+}
+.modal_text{
+	font-size: 18px;
+	font-family: var(--main_font);
+	color: var(--white);
+	text-transform: capitalize;
+	font-weight: 400;
+}
+.form-control {
+	background: transparent;
+	border-radius: 0 !important;
+}
+.btn-close{
+	background: transparent;
+}
+.modal-header .btn-close {
+	 padding: 0rem 0rem;
+	margin: 0rem 0rem 0rem auto; 
+	margin-right: 10px !important;
+	margin-top: -5px !important;
+}
+.btn-close span{
+	color: var(--white) !important;
+	font-size: 20px;
+    color: rebeccapurple;
+    height: 30px;
+	width: 30px;
+	background-color: var(--brnad);
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	padding-top: 5px;
+}
+/*==================MODAL   ENDS ==============*/
+
+ 
+ 
+
+
+
+ 
+  

@@ -1,0 +1,101 @@
+
+/*===================TESTIMONIAL PART START ==============*/ 
+#testi{
+    .testi_bg{
+        background: url(../images/testi_bg.png) no-repeat center / cover;
+        padding-top: 30px;
+        padding-bottom: 80px;
+        z-index: 9;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            inset: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: -9;
+        }
+    }
+    .testi_item{
+     .testi_para{
+         width: 95%;
+        p{
+            font-size: 13px;
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 18px;
+            color: var(--white);
+            font-family: var(--main_font);
+        }
+     }
+ 
+        .testi_img_text{
+            .testi_img{
+                width: 15%;
+                img{
+                    width: 100%;
+                }
+            }
+            .testi_text_icon{
+                margin-left: 14px;
+                h3{
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: var(--main_font);
+                    line-height: 17px;
+                    color: var(--white);
+                    margin-bottom: 8px;
+                }
+                h4{
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: var(--main_font);
+                    line-height: 17px;
+                    color: var(--white);
+                }
+                .test_icon{
+                    li{
+                        i{
+                            color: var(--brnad);
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+  // DOTS START 
+  .slick-dots{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+    padding: 0;
+    margin: 0;
+    li.slick-active{
+        background-color: var(--brnad);
+        border-color: var(--brnad);
+    }
+    li{
+       
+        height: 15px;
+        width: 15px;
+        border:1px solid var(--white);
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 10px;
+        cursor: pointer;
+        &:last-child{
+            margin-right: 0;
+        }
+        button{
+            font-size: 0;
+            border: none;
+        }
+    }
+}
+
+
+}
+/*===================TESTIMONIAL PART ENDS ==============*/ 

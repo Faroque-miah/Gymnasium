@@ -1,0 +1,259 @@
+/*==================OFF CANVAS   ENDS ==============*/ 
+.offcanvas-title{
+	font-family: var(--main_font);
+	color: var(--brnad);
+	font-weight: 700;
+}
+.off_button{
+		display: inline-block;
+		font-weight: 400;
+		line-height: 1.5;
+		color: var(--white);
+		text-align: center;
+		text-decoration: none;
+		vertical-align: middle;
+		cursor: pointer;
+		 padding: 10px 15px;
+		font-size: 1rem;
+		border-radius: .25rem;
+		color: var(--white);
+		transition: all linear 0.4s;
+		&:hover{
+			background-color: var(--white);
+			color: var(--brnad);
+		}
+	}
+.canvas {
+	position: fixed;
+	top: 19.8%;
+	left: 0;
+	z-index: 99999999999999;
+	border-radius: 0  4px 4px 0!important;
+	background-color: var(--brnad);
+  i{
+	animation: mymove 5s infinite;
+  }
+}
+
+//  animation keyframs 
+@keyframes mymove {
+	50% {transform: rotate(180deg);}
+  }
+//  animation keyframs 
+.btn-primary:focus {
+	box-shadow: 0 0 0 .0rem !important;
+}
+// canvas button ends 
+.offcanvas {
+	width: 300px;
+	height:200px;
+	z-index: 99999999999999;
+	position: fixed;
+	bottom: 0;
+}
+.offcanvas-start {
+	top: 172px;
+	left: 0;
+	width: 200px !important;
+	border-right: 1px solid rgba(0,0,0,.2);
+	transform: translateX(-100%);
+}
+
+
+.color_picker {
+	ul{
+		padding-left: 0 ;
+		display: flex;
+		justify-content: space-between;
+		li{
+			width: 25px;
+			height: 25px;
+			cursor: pointer;
+		}
+	}
+}
+.offcanvas{
+   ul{
+	   li{
+		height: 30px;
+		width: 30px;
+		list-style: none;
+		cursor: pointer;
+	   }
+   }
+}
+.offcanvas ul li.default{
+    background-color: #e35e36;
+}
+.offcanvas ul li.green{
+    background-color: green;
+}
+.offcanvas ul li.orange{
+	background-color: orange;
+}
+.offcanvas ul li.naveblue{
+	background-color: #15133C;
+}
+ 
+/*==================OFF CANVAS   ENDS ==============*/ 
+
+/*==========================color picker start====================*/
+
+
+/*================= GREEN COLOR PICKER ==================*/
+// BAGROUND COLOR 
+.green .header_bg .header .nav-item .nav-link.active::after,
+ .green #banner .bg_1 .banner_text h3::before,
+ .green #banner .bg_1 .banner_text h3::after,
+ .green #banner .bg_1 .banner_text h1::before,
+ .green #banner .bg_1 .banner_text h1::after,
+ .green #banner .bg_1 .banner_text p::after,
+ .green #banner .bg_1 .banner_text p::before,
+ .green #banner .banner_item .banner_button a:first-of-type,
+ .green #banner .banner_item .banner_button a:hover,
+ .green #banner .slick-dots li.slick-active,
+ .green #about .about_img .about_oberlay a i,
+ .green #testi .slick-dots li.slick-active,
+ .green #membership .member_item:hover .member_head h3,
+ .green #membership .member_item:hover .member_footer a,
+ .green #routainbg .nav-tabs .nav-item .nav-link.active,
+ .green #routainbg .tab-content ul li.active,
+ .green .bac_to_top i,
+ .green .off_button
+{
+ background-color: green;
+}
+ .green #banner .banner_item .banner_button a:first-of-type,
+ .green #banner .banner_item .banner_button a:hover,
+.green #banner .slick-dots li.slick-active,
+.green #testi .slick-dots li.slick-active
+{
+	border-color: green;
+}
+
+ .green #banner .bg_1 .banner_text h1,
+ .green #testi .testi_item .testi_img_text .testi_text_icon .test_icon li i,
+ .green #footer_bg .footer_item .footer_icon i,
+ .green #footer_bg .footer_item .contact_icon i,
+ .green .copy_right p span,
+ .green .offcanvas-title,
+ .green .off_button:hover
+ {
+	 color: green;
+ }
+ .green #gallery .gallery_bg .gallery_item figure .gallery_overlay,
+ .green  #team .card figure .team_overlay,
+ .green .stiky_hed
+ {
+	 background: rgba(0, 128, 0, 0.6);
+ }
+ .green .off_button:hover{
+	background-color: white;
+ }
+/*================= GREEN COLOR PICKER ==================*/
+
+
+/*================= GREEN COLOR PICKER ==================*/
+// BAGROUND COLOR 
+.orange .header_bg .header .nav-item .nav-link.active::after,
+ .orange #banner .bg_1 .banner_text h3::before,
+ .orange #banner .bg_1 .banner_text h3::after,
+ .orange #banner .bg_1 .banner_text h1::before,
+ .orange #banner .bg_1 .banner_text h1::after,
+ .orange #banner .bg_1 .banner_text p::after,
+ .orange #banner .bg_1 .banner_text p::before,
+ .orange #banner .banner_item .banner_button a:first-of-type,
+ .orange #banner .banner_item .banner_button a:hover,
+ .orange #banner .slick-dots li.slick-active,
+ .orange #about .about_img .about_oberlay a i,
+ .orange #testi .slick-dots li.slick-active,
+ .orange #membership .member_item:hover .member_head h3,
+ .orange #membership .member_item:hover .member_footer a,
+ .orange #routainbg .nav-tabs .nav-item .nav-link.active,
+ .orange #routainbg .tab-content ul li.active,
+  .orange .bac_to_top i,
+  .orange .off_button
+{
+ background-color: orange;
+}
+ .orange #banner .banner_item .banner_button a:first-of-type,
+ .orange #banner .banner_item .banner_button a:hover,
+.orange #banner .slick-dots li.slick-active,
+.orange #testi .slick-dots li.slick-active
+{
+	border-color: orange;
+}
+
+ .orange #banner .bg_1 .banner_text h1,
+ .orange #testi .testi_item .testi_img_text .testi_text_icon .test_icon li i,
+ .orange #footer_bg .footer_item .footer_icon i,
+ .orange #footer_bg .footer_item .contact_icon i,
+ .orange .copy_right p span,
+ .orange .off_button:hover,
+ .orange .offcanvas-title
+ {
+	 color: orange;
+ }
+ .orange #gallery .gallery_bg .gallery_item figure .gallery_overlay,
+ .orange  #team .card figure .team_overlay,
+ .orange .stiky_hed
+ {
+	 background:rgba(255, 166, 0, 0.6);
+ }
+ .orange .off_button:hover{
+	background-color: white;
+ }
+/*================= orange COLOR PICKER ==================*/
+
+
+/*================= GREEN COLOR PICKER ==================*/
+// BAGROUND COLOR 
+.naveblue .header_bg .header .nav-item .nav-link.active::after,
+ .naveblue #banner .bg_1 .banner_text h3::before,
+ .naveblue #banner .bg_1 .banner_text h3::after,
+ .naveblue #banner .bg_1 .banner_text h1::before,
+ .naveblue #banner .bg_1 .banner_text h1::after,
+ .naveblue #banner .bg_1 .banner_text p::after,
+ .naveblue #banner .bg_1 .banner_text p::before,
+ .naveblue #banner .banner_item .banner_button a:first-of-type,
+ .naveblue #banner .banner_item .banner_button a:hover,
+ .naveblue #banner .slick-dots li.slick-active,
+ .naveblue #about .about_img .about_oberlay a i,
+ .naveblue #testi .slick-dots li.slick-active,
+ .naveblue #membership .member_item:hover .member_head h3,
+ .naveblue #membership .member_item:hover .member_footer a,
+ .naveblue #routainbg .nav-tabs .nav-item .nav-link.active,
+ .naveblue #routainbg .tab-content ul li.active,
+ .naveblue .bac_to_top i,
+ .naveblue .off_button
+{
+ background-color: #15133C;
+}
+ .naveblue #banner .banner_item .banner_button a:first-of-type,
+ .naveblue #banner .banner_item .banner_button a:hover,
+.naveblue #banner .slick-dots li.slick-active,
+.naveblue #testi .slick-dots li.slick-active
+.naveblue  .orange .off_button:hover
+{
+	border-color: #15133C;
+}
+
+ .naveblue #banner .bg_1 .banner_text h1,
+ .naveblue #testi .testi_item .testi_img_text .testi_text_icon .test_icon li i,
+ .naveblue #footer_bg .footer_item .footer_icon i,
+ .naveblue #footer_bg .footer_item .contact_icon i,
+ .naveblue .copy_right p span,
+ .naveblue .off_button:hover
+ {
+	 color: #15133C;
+ }
+ .naveblue #gallery .gallery_bg .gallery_item figure .gallery_overlay,
+ .naveblue  #team .card figure .team_overlay,
+ .naveblue .stiky_hed
+ {
+	 background:rgba(21, 19, 60, 0.6);
+ }
+ .naveblue  .orange .off_button:hover{
+	background-color: white;
+ }
+/*================= orange COLOR PICKER ==================*/
