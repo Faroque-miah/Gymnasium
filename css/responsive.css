@@ -1,3 +1,398 @@
+   /* ============= SMALL device start ================== */
+ @media (min-width:768px) and (max-width:991.98px) {
+    .header_bg .navbar-brand { 
+        /* transform: skewX(0deg); */
+        position: static !important;
+    }
+    .navbar-toggler {
+        background-color: #e23e38;
+        border-radius: .0rem;
+    }
+    .navbar-toggler i{
+        color: var(--white);
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow:  none;
+      }
+      .navbar .navbar-nav{
+        background-color: rgba(53, 53, 53, 0.85);
+    }
+    .header_bg .header .nav-item .nav-link{
+        display: block;
+    }
+ 
+  /* BANNER PART START  */
+  .navbar-toggler {
+    background-color: #e23e38;
+    border-radius: .0rem;
+}
+.navbar-toggler i{
+    color: var(--white);
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow:  none;
+  }
+  .navbar .navbar-nav{
+    background-color: rgba(53, 53, 53, 0.85);
+}
+.header_bg .header .nav-item .nav-link{
+    display: block;
+}
+#banner .bg_1 .banner_text p {
+	position: relative;
+	z-index: 99;
+	padding: 0 78px;
+}
+#banner .bg_1 .banner_text h3::after {
+	content: '';
+	position: absolute;
+	top: 14px;
+	right: 37px;
+	height: 3px;
+	width: 177px;
+	background-color: var(--brnad);
+	z-index: -9;
+}
+#banner .bg_1 .banner_text h1::after {
+	content: '';
+	position: absolute;
+	height: 206px;
+	width: 3px;
+	background-color: var(--brnad);
+	top: -51px;
+	right: 37px;
+	z-index: -9;
+}
+
+
+
+
+#banner .bg_1 .banner_text p::after {
+	content: '';
+	position: absolute;
+	height: 3px;
+	width: 65px;
+	background-color: var(--brnad);
+	top: 94px;
+	left: 75px;
+	z-index: -9;
+}
+#banner .bg_1 .banner_text p::before {
+	content: '';
+	position: absolute;
+	height: 3px;
+	width: 92px;
+	background-color: var(--brnad);
+	top: 94px;
+	right: 37px;
+	z-index: -9;
+}
+#banner .bg_1 .banner_text p::after {
+	content: '';
+	position: absolute;
+	height: 3px;
+	width: 83px;
+	background-color: var(--brnad);
+	top: 93px;
+	left: 69px;
+	z-index: -9;
+}
+#banner .bg_1 .banner_text h3::before {
+	content: '';
+	position: absolute;
+	top: 53%;
+	left: 71px;
+	height: 3px;
+	width: 174px;
+	background-color: var(--brnad);
+	z-index: -9;
+}
+#banner .bg_1 .banner_text h1::before {
+	content: '';
+	position: absolute;
+	height: 200px;
+	width: 3px;
+	background-color: var(--brnad);
+	top: -47px;
+	left: 69px;
+	z-index: -9;
+}
+  /* BANNER PART START  */
+  /* BANNER PART START  */
+  #about {
+	padding: 70px;
+}
+#team {
+	padding: 70px 0;
+}
+#testi .testi_item .testi_para p {
+	font-size: 12px;
+}
+#membership .member_item {
+	cursor: pointer;
+    margin-bottom: 20px;
+}
+#routainbg .tab-content ul li {
+	width: 25%;
+	background-color: #f1f1f1;
+	padding: 50px 0;
+	float: left;
+	-webkit-transform: scale(0.98);
+	transform: scale(0.98);
+}
+#footer_bg .footer_item h3 {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	color: var(--white);
+	font-family: var(--main_font);
+	margin-bottom: 30px !important;
+}
+.copy_right {
+	line-height: 50px;
+	padding-bottom: 8px;
+	padding-top: 25px !important;
+}
+  /* BANNER PART START  */
+ }
+
+   /* ============= SMALL device start ================== */
+
+
+
+   /* ============= smal device start ================== */
+   @media (min-width:576px) and  (max-width: 767.98px){
+    .header_bg .navbar-brand { 
+        transform: skewX(0deg);
+        position: static !important;
+    }
+    .header_bg .navbar-brand img{
+        transform: skewX(0deg);
+    }
+    .navbar-toggler {
+        background-color: #e23e38;
+        border-radius: .0rem;
+    }
+    .navbar-toggler i{
+        color: var(--white);
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow:  none;
+      }
+      .navbar .navbar-nav{
+        background-color: rgba(53, 53, 53, 0.85);
+    }
+    .header_bg .header .nav-item .nav-link{
+        display: block;
+    }
+    .header_bg .header .nav-item .nav-link::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100;
+      width: 100%;
+      background: var(--white);
+      content: '';
+      -webkit-transition: all linear 0.4s;
+      transition: all linear 0.4s;
+      z-index: -9;
+  }
+  /* BANNER PART START  */
+  #banner{
+    position: relative;
+}
+#banner .bg_1 .banner_text h1::before ,
+#banner .bg_1 .banner_text h1::after ,
+#banner .bg_1 .banner_text h3::before ,
+#banner .bg_1 .banner_text h3::after ,
+#banner .bg_1 .banner_text p::after,
+#banner .bg_1 .banner_text p::before {
+ display: none;
+}
+.banner_text p{
+    padding: 0 !important;
+}
+     /* =======nav bar start==========  */
+
+     /* =====BANNER start==========  */
+     #banner .banner_item h1 {
+        font-size: 55px;
+        margin: 20px 0;
+    }
+    #banner .banner_item h3 {
+        font-size: 31px;
+    }
+    #banner .banner_item p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    #banner .banner_item .banner_button a:first-of-type {
+        margin-right: 20px;
+    }
+    #banner .banner_item .banner_button a {
+        line-height: 40px;
+    }
+    #banner .slick-dots li {
+        height: 15px;
+        width: 15px;
+    }
+    #banner .banner_item {
+        padding-top: 225px;
+        padding-bottom: 110px;
+        position: relative;
+        z-index: 9;
+    }
+     /* =====BANNER start==========  */
+  /* =====ABOUT start==========  */
+  #about {
+    padding: 60px 0;
+}
+.header h3 {
+    font-size: 22px;
+}
+.header img {
+    margin-top: -18px;
+}
+#about .banner_text p {
+    font-size: 14px;
+    font-family: var(--para);
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 24px;
+    color: var(--para);
+}
+#about .about_img .about_oberlay a i {
+    font-size: 25px;
+    color: #1a181d;
+    height: 43px;
+    width: 43px;
+    line-height: 43px;
+    text-align: center;
+    background: var(--brnad);
+    border-radius: 50%;
+}
+ /* =====ABOUT ENDS==========  */
+
+  /* =====TEAM START ==========  */
+  #team {
+    padding: 60px 0;
+}
+#team .card {
+    margin-top: 60PX;
+}
+#team .card-body .card-text {
+    font-size: 12px;
+}
+ /* =====TEAM  ENDS==========  */
+ /* =====testimonial  start==========  */
+ #testi .testi_item .testi_img_text .testi_text_icon h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+#testi .testi_item .testi_para p {
+    font-size: 13px;
+}
+#testi .testi_bg {
+    padding-bottom: 55px;
+    padding-top: 50px;
+}
+#membership {
+    padding: 50px 0;
+}
+#membership .member_item {
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+.header h3 {
+    font-size: 20px;
+}
+ /* =====testimonial  ENDS==========  */
+ /* =====ROUTAIN  ENDS==========  */
+ 
+ #routainbg .nav-tabs .nav-item {
+	width: 33.3%;
+}
+#routainbg .tab-content ul li {
+	width: 33.3%;
+	background-color: #f1f1f1;
+	padding: 50px 0;
+	float: left;
+	-webkit-transform: scale(0.98);
+	transform: scale(0.98);
+}
+ /* =====ROUTAIN  ENDS==========  */
+ #counter {
+    padding: 45px 0 20px;
+}
+ .counter_item{
+     text-align: center;
+     margin-bottom: 10px;
+ }
+ #counter .counter_item h3 {
+    font-size: 36px;
+}
+#counter .counter_item p {
+    font-size: 15px;
+}
+#counter .counter_item p:nth-last-of-type(5){
+    margin-bottom: 0 !important;
+}
+ /* =====COUNTER  ENDS==========  */
+
+ #footer_bg .footer_item h3 {
+	font-size: 16px;
+	margin-bottom: 30px !important;
+}
+#footer_bg .footer_item .date li {
+	font-size: 14px;
+	line-height: 19px;
+	margin-bottom: 10px;
+}
+#footer_bg .footer_item .flicker_photo li{
+     width: 20%;
+}
+#footer_bg .footer_item .flicker_photo li img {
+	width: 100%;
+	-webkit-transform: scale(0.9);
+	transform: scale(0.96);
+}
+#footer_bg .footer_item .contact_icon li a {
+	font-family: var(--other_font);
+}
+#footer_bg .footer_item .social_icon h3 {
+	font-size: 20px;
+    margin-bottom: 5px;
+}
+#footer_bg .footer_item .social_icon{
+    margin-top: -15px;
+}
+#footer_bg .footer_item .social_icon li i {
+	height: 36px;
+	width: 36px;
+}
+.border_bg::after {
+	bottom: 84px;
+}
+.copy_right p {
+	color: var(--white);
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: var(--main_font);
+	margin-top: 20px;
+}
+ 
+
+   }
+   /* ============= smal device start ================== */
+
+
    /* extra smal device start  */
 @media (max-width: 575px){
     /* =======nav bar start==========  */
@@ -9,10 +404,7 @@
     .header_bg .navbar-brand img{
         transform: skewX(0deg);
     }
-  .navbar-brand {
-        transform: skewX(0deg);
-        position: static !important;
-    }
+ 
     .header_bg .navbar-brand {
     padding: 0 !important;
     }
@@ -47,6 +439,7 @@
         transition: all linear 0.4s;
         z-index: -9;
     }
+    /* BANNER PART START  */
     #banner{
         position: relative;
     }
@@ -91,7 +484,7 @@
             position: relative;
             z-index: 9;
         }
-         /* =====BANNER start==========  */
+         /* =====BANNER ENDS==========  */
 
          /* =====ABOUT start==========  */
          #about {
